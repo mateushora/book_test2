@@ -1,0 +1,60 @@
+- file: docs/landing_page
+
+- part: Geral
+  chapters:
+  - file: docs/0_contexto
+
+- part: Sanity Check
+  chapters:
+  - file: docs/sanity_check/geral
+  - file: docs/sanity_check/missing_values
+  - file: docs/sanity_check/outliers
+
+- part: EDA
+  chapters:
+  - file: docs/eda/general_plots
+  - file: docs/eda/numeric_variables
+    sections:
+      - file: docs/eda/numeric_vars/CdCtrConta
+      - file: docs/eda/numeric_vars/CdCpRCPF
+      - file: docs/eda/numeric_vars/CdCpRCRM
+  - file: docs/eda/category_variables
+    sections:
+      - file: docs/eda/category_vars/DfParID
+      - file: docs/eda/category_vars/CdCpRUF_RG
+      - file: docs/eda/category_vars/DfECvID
+      - file: docs/eda/category_vars/DfSexID
+      - file: docs/eda/category_vars/CdCpRRendaAtual
+      - file: docs/eda/category_vars/CdCpRParticipacao
+      - file: docs/eda/category_vars/CdCpRProfissao
+      - file: docs/eda/category_vars/DfRgBID
+      - file: docs/eda/category_vars/CdCpNuComponente
+      - file: docs/eda/category_vars/CdCpNuCPFConjuge
+      - file: docs/eda/category_vars/CdCpRNmArquivoInc
+      - file: docs/eda/category_vars/CdCpRNmArquivoUpd
+      - file: docs/eda/category_vars/CdCpRNmArquivoDel
+      - file: docs/eda/category_vars/CdCpDcNacionalidade
+      - file: docs/eda/category_vars/CdCpRRGConjuge
+      - file: docs/eda/category_vars/CdCpRUF_RGConjuge
+      - file: docs/eda/category_vars/DfECvIDConjuge
+      - file: docs/eda/category_vars/CdCpRProfissaoConjuge
+      - file: docs/eda/category_vars/CdCpDcNacionalidadeConjuge
+      - file: docs/eda/category_vars/CdRacaCorComponente
+      - file: docs/eda/category_vars/CdRacaCorConjugeComponete
+      - file: docs/eda/category_vars/Indicativo_inad
+  - file: docs/eda/text_variables
+    sections:
+      - file: docs/eda/text_vars/CdCpRNome
+      - file: docs/eda/text_vars/CdCpRRG
+      - file: docs/eda/text_vars/CdCpRNomeConjuge
+  - file: docs/eda/date_variables
+    sections:
+      - file: docs/eda/date_vars/CdCpRDataNasc
+      - file: docs/eda/date_vars/CdCpRCarencia
+      - file: docs/eda/date_vars/CdCpRDataRenda
+      - file: docs/eda/date_vars/CdCpRDtInc
+      - file: docs/eda/date_vars/CdCpRDtUpd
+      - file: docs/eda/date_vars/CdCpRDtDel
+      - file: docs/eda/date_vars/DataAtualizacaoObito
+      - file: docs/eda/date_vars/DataObito
+  - file: docs/eda/consideracoes_finais
